@@ -12,3 +12,13 @@ $('.speakers-list-inner').toArray().map(function(elt){
     session: $elt.find('h4').text().replace('Session: ', '')
   };
 });
+
+console.log(JSON.stringify($('.sponsor').toArray().map(function(elt){
+  var $elt = $(elt);
+  return {
+    url: $elt.find('a').attr('href'),
+    imageURL: $elt.find('img').attr('src'),
+    description: $elt.find('.description')[0].innerHTML,
+    name: $elt.find('img').attr('alt')
+  };
+}), null, 2));
