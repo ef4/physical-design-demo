@@ -57,3 +57,23 @@
 .shuffle {
     float: right;
 }
+
+.sponsor-logo {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    box-shadow: 0px 2px 2px 2px #777;
+    transition: box-shadow 150ms, transform 150ms;
+    
+    img { 
+        width: 100px;
+    }
+    &:hover {
+        box-shadow: 0px 4px 4px 4px #777;
+        transform: translateY(-4px);
+    }
+}
