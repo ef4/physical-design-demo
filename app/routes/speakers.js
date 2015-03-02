@@ -2,11 +2,11 @@ import Ember from "ember";
 
 export default Ember.Route.extend({
   model: function() {
-    return Ember.A(speakers.slice());
+    return Ember.A(speakerList.slice());
   }
 });
 
-var speakers = [
+export var speakerList = [
   {
     "id": "ykatz",
     "imageURL": "images/speakers/ykatz.jpeg",

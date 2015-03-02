@@ -1,4 +1,4 @@
 import Ember from "ember";
 export default Ember.Component.extend({
-  classNames: ['speakers-list-inner']
+  classNames: ['xspeakers-list-inner']
 });

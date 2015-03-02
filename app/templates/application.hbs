@@ -7,7 +7,7 @@
     <nav>
       <div class="mobile-trigger">| | |</div>
       <ul>
-	<li><a href="speakers.html">Speakers</a></li>
+	<li>{{#link-to "speakers"}}Speakers{{/link-to}}</li>
 	<li><a href="schedule.html">Schedule</a></li>
 	<li><a href="sponsors.html">Sponsors</a></li>
 	<li><a href="location.html">Location + Hotel</a></li>
@@ -17,72 +17,13 @@
     <div class="date">
       <p>MARCH 3-4 <span>|</span> PORTLAND, OR</p>
       <h1>Speakers</h1>
-      <p class="mini-cta"><button onclick="window.location='/registration.html'">Join the Waitlist</button></p>
     </div>
   </div>
 </header>
 
-<div class="wrapper speaker-box">
-  <div class="speakers-list">
-    {{#each model as |speaker|}}
-      {{speaker-description speaker=speaker}}
-    {{/each}}
-
-  </div>
-</div>
+{{liquid-outlet class="app-outlet"}}
 
   <div class="xsponsors-footer">
-    <h3>Sponsors</h3>
-    <div class="level">
-      <h4>DIAMOND</h4>
-      <div class="sponsor-images">
-        <div><a href="http://www.skylight.io"><img alt="Skylight" src="images/sponsors/skylight.png" /></a></div>
-        <div><a href="http://dockyard.com"><img alt="DockYard" src="images/sponsors/dockyard-footer.png" /></a></div>
-        <div><a href="http://www.ticketfly.com"><img alt="Ticketfly" src="images/sponsors/ticketfly.png" /></a></div>
-      </div>
-
-    </div>
-    <div class="level">
-      <h4>GOLD</h4>
-      <div class="sponsor-images">
-        <div><a href="https://www.firebase.com/"><img alt="Firebase" src="images/sponsors/firebase.png" /></a></div>
-        <div><a href="http://www.bustle.com"><img alt="Bustle" src="images/sponsors/bustle.png" /></a></div>
-        <div><a href="http://frontside.io/"><img alt="The Frontside" src="images/sponsors/frontside.png" /></a></div>
-        <div><a href="http://spiceworks.com"><img alt="Spiceworks" src="images/sponsors/spiceworks.png" /></a></div>
-        <div><a href="http://www.zendesk.com"><img alt="Zendesk" src="images/sponsors/zendesk.png" /></a></div>
-        <div><a href="https://addepar.com/"><img alt="Addepar" src="images/sponsors/addepar-footer.png" /></a></div>
-        <div><a href="http://www.zenefits.com/"><img alt="Zenefits" src="images/sponsors/zenefits-footer.png" /></a></div>
-        <div><a href="http://beatport.com"><img alt="Beatport" src="images/sponsors/beatport.png" /></a></div>
-        <div><a href="http://customer.io/emberconf/"><img alt="Customer.io" src="images/sponsors/customerio-footer.png" /></a></div>
-        <div><a href="http://www.mandrill.com"><img alt="Mandrill" src="images/sponsors/mandrill.png" /></a></div>
-      </div>
-
-    </div>
-    <div class="level">
-      <h4>SILVER</h4>
-      <div class="sponsor-images">
-        <div><a href="http://www.freshbooks.com"><img alt="Freshbooks" src="images/sponsors/freshbooks-footer.png" /></a></div>
-        <div><a href="http://www.opengov.com"><img alt="OpenGov" src="images/sponsors/opengov-footer.png" /></a></div>
-        <div><a href="http://locusenergy.com/"><img alt="Locus Energy" src="images/sponsors/locus.png" /></a></div>
-        <div><a href="https://engineering.groupon.com/"><img alt="Groupon" src="images/sponsors/groupon-footer.png" /></a></div>
-        <div><a href="http://www.linkedin.com"><img alt="LinkedIn" src="images/sponsors/linkedin.png" /></a></div>
-        <div><a href="http://yahoo.com"><img alt="Yahoo" src="images/sponsors/yahoo.png" /></a></div>
-        <div><a href="http://madewithenvy.com"><img alt="Envy" src="images/sponsors/envy.png" /></a></div>
-      </div>
-
-    </div>
-    <div class="level">
-      <h4>BRONZE</h4>
-      <div class="sponsor-images">
-        <div><a href="http://www.dollarshaveclub.com/"><img alt="Dollar Shave Club" src="images/sponsors/dollarshaveclub.png" /></a></div>
-        <div><a href="http://echobind.com/emberconf"><img alt="Echobind" src="images/sponsors/echobind.png" /></a></div>
-        <div><a href="http://www.stickermule.com/unlock?ref_id=3368978601"><img alt="Stickermule" src="images/sponsors/stickermule-footer.png" /></a></div>
-        <div><a href="http://www.201-created.com/"><img alt="201 Created" src="images/sponsors/201created.png" /></a></div>
-        <div><a href="http://www.puppetlabs.com"><img alt="Puppet Labs" src="images/sponsors/puppet.png" /></a></div>
-        <div><a href="http://www.kangacoders.com"><img alt="Kanga Coders" src="images/sponsors/kanga.png" /></a></div>
-      </div>
-
-    </div>
   </div>
   <footer>
     <p class="ownership">
