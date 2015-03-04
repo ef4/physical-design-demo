@@ -1,6 +1,6 @@
 @import 'gfont';
 @import 'normalize';
-@import 'all';
+@import 'emberconf';
 
 #emberconf {
     min-height: 800px;
@@ -30,9 +30,6 @@
     border-radius: 6.25em;
     box-shadow: 0px 0px 0px 2px #e14c31;
     position: relative;
-
-
-
 }
 
 .speaker-icons {
@@ -53,9 +50,11 @@
     overflow: visible
 }
 
-
 .shuffle {
     float: right;
+    &:before {
+        content: "";
+    }
 }
 
 .sponsor-card {

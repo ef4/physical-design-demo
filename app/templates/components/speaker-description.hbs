@@ -1,16 +1,1 @@
-<div class="speakers-image" id="{{speaker.id}}">
-  <img class="speaker-image-large" alt="{{speaker.name}}" src="{{speaker.imageURL}}" data-speaker-id={{speaker.id}} >
-  <h6><span class="fontawesome-twitter"></span><a href="{{speaker.twitterURL}}">{{speaker.twitterHandle}}</a></h6>
-</div>
-<div class="speakers-description description-header">
-  <div class="top">
-    <h3>{{speaker.name}}</h3>
-    {{!- WARNING: the following line would be an XSS vulnerability
-         in a real app. For demo purposes only. -}}
-    <p>{{{speaker.bio}}}</p>
-  </div>
-  <div class="bottom">
-    <h4><span>Session:</span> {{speaker.session}}</h4>
-  </div>
-</div>
 

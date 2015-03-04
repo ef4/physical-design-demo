@@ -1,1 +1,17 @@
-{{speaker-description speaker=model}}
+<div class="speakers-list-inner">
+  <div class="speakers-image" id="{{model.id}}">
+    <img class="speaker-image-large" alt="{{model.name}}" src="{{model.imageURL}}" data-speaker-id={{model.id}} >
+    <h6><span class="fontawesome-twitter"></span><a href="{{model.twitterURL}}">{{model.twitterHandle}}</a></h6>
+  </div>
+  <div class="speakers-description description-header">
+    <div class="top">
+      <h3>{{model.name}}</h3>
+      {{!- WARNING: the following line would be an XSS vulnerability
+      in a real app. For demo purposes only. -}}
+      <p>{{{model.bio}}}</p>
+    </div>
+    <div class="bottom">
+      <h4><span>Session:</span> {{model.session}}</h4>
+    </div>
+  </div>
+</div>
