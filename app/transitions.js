@@ -11,6 +11,11 @@ export default function() {
     }, {
       use: ['toLeft', { duration } ]
     }),
-    this.reverse('toRight')
+    this.reverse('explode', {
+      matchBy: 'data-speaker-id',
+      use: ['flyTo', { duration } ]
+    }, {
+      use: ['toRight', { duration } ]
+    })
   );
 }
