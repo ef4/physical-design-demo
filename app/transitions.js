@@ -18,4 +18,9 @@ export default function() {
       use: ['toRight', { duration } ]
     })
   );
+
+  this.transition(
+    this.childOf('.speaker-icons'),
+    this.use('toUp', { duration } )
+  );
 }
