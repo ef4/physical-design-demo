@@ -57,6 +57,16 @@
     }
 }
 
+.speakers-btn {
+    &:before {
+        position: static;
+        font-family: 'FontAwesome';
+        content: '\f0d9';
+        color: #fff;
+        margin-right: 0.5em;
+    }
+}
+
 .sponsor-card {
     background-color: white;
     margin: 10px;
