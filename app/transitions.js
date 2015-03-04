@@ -21,6 +21,9 @@ export default function() {
 
   this.transition(
     this.childOf('.speaker-icons'),
-    this.use('toUp', { duration } )
+    this.use('explode', {
+      matchBy: 'data-speaker-id',
+      use: ['flyTo', { duration } ]
+    })
   );
 }
