@@ -1,4 +1,5 @@
 {{link-to "Speakers" "emberconf.speakers" tagName="button" class="speakers-btn"}}
+
 <div class="speakers-list-inner">
   <div class="speakers-image" id="{{model.id}}">
     <img class="speaker-image-large" alt="{{model.name}}" src="{{model.imageURL}}" data-speaker-id={{model.id}} >
@@ -7,8 +8,10 @@
   <div class="speakers-description description-header">
     <div class="top">
       <h3>{{model.name}}</h3>
+
       {{!- WARNING: the following line would be an XSS vulnerability
       in a real app. For demo purposes only. -}}
+
       <p>{{{model.bio}}}</p>
     </div>
     <div class="bottom">
