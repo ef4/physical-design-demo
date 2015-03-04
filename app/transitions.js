@@ -28,11 +28,4 @@ export default function() {
   );
 
 
-  this.transition(
-    this.childOf('.xsponsors-footer'),
-    this.use('explode', {
-      matchBy: 'data-sponsor-id',
-      use: ['flyTo', { duration, easing: [250, 15] } ]
-    })
-  );
 }
