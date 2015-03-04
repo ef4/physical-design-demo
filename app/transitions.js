@@ -6,8 +6,8 @@ export default function() {
     this.fromRoute('emberconf.speakers'),
     this.toRoute('emberconf.speaker'),
     this.use('explode', {
-      pickNew: 'img',
-      use: ['toUp', { duration } ]
+      matchBy: 'data-speaker-id',
+      use: ['flyTo', { duration } ]
     }, {
       use: ['toLeft', { duration } ]
     }),
