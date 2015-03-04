@@ -94,3 +94,22 @@
         width: 100px;
     }
 }
+
+.speakers-list-inner {
+    button:before {
+        content: ''
+    }
+    button:after {
+        content: ''
+    }
+    button {
+        padding: 18px 24px;
+    }
+    .top {
+        cursor: pointer;
+    }
+    input, textarea {
+        line-height: 36px;
+    }
+}
+

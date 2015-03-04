@@ -13,7 +13,7 @@ export var speakerList = [
     "twitterURL": "http://twitter.com/@wycats",
     "twitterHandler": "@wycats",
     "name": "Yehuda Katz",
-    "bio": "Yehuda is a member of the Ember.js, Ruby on Rails and jQuery Core Teams; his 9-to-5 home is at the startup he founded, <a href=\"http://www.tilde.io\">Tilde Inc</a>, where he works on <a href=\"http://www.skylight.io\">Skylight</a>, the smart profiler for Rails. Yehuda spends most of his time hacking on open source—his main projects, along with others, like Thor, Handlebars and Janus—and traveling the world doing open source evangelism work.",
+    "bio": "Yehuda is a member of the Ember.js, Ruby on Rails and jQuery Core Teams; his 9-to-5 home is at the startup he founded, Tilde Inc, where he works on Skylight, the smart profiler for Rails. Yehuda spends most of his time hacking on open source—his main projects, along with others, like Thor, Handlebars and Janus—and traveling the world doing open source evangelism work.",
     "session": "Keynote"
   },
   {
@@ -22,7 +22,7 @@ export var speakerList = [
     "twitterURL": "http://twitter.com/@tomdale",
     "twitterHandler": "@tomdale",
     "name": "Tom Dale",
-    "bio": "Tom is one of the creators of Ember.js, and a Co-founder at <a href=\"http://www.tilde.io\">Tilde</a>. He spends his days working on the open source projects Tilde supports, doing Ember consulting, and building their first developer product, <a href=\"http://www.skylight.io\">Skylight</a>. He's a former Apple engineer who first gained expert front-end JavaScript skills working on MobileMe and iCloud. He's a super hipster, and still isn't sure if it's serious or ironic.",
+    "bio": "Tom is one of the creators of Ember.js, and a Co-founder at Tilde. He spends his days working on the open source projects Tilde supports, doing Ember consulting, and building their first developer product, Skylight. He's a former Apple engineer who first gained expert front-end JavaScript skills working on MobileMe and iCloud. He's a super hipster, and still isn't sure if it's serious or ironic.",
     "session": "Keynote"
   },
   {
@@ -121,7 +121,7 @@ export var speakerList = [
     "twitterURL": "http://twitter.com/@wifelette",
     "twitterHandler": "@wifelette",
     "name": "Leah Silber",
-    "bio": "Leah is an all-around open source advocate. During the day time, she's one of the founders at <a href=\"http://www.tilde.io\">Tilde Inc</a>, the open-source-centric company behind <a href=\"http://www.skylight.io\">Skylight</a>. In her spare time, in addition to running EmberConf, Leah works on GoGaRuCo, RailsConf, and a number of User Groups. She's a retired member of the jQuery Core Team, and a member of the Ember Core Team.<br><br>She previously worked as a consultant for clients in the tech sector, ran events for the jQuery Foundation and was employed managing the Community Marketing and Events department at Engine Yard. She is originally from Brooklyn, NY and now lives in Portland, OR with her husband.",
+    "bio": "Leah is an all-around open source advocate. During the day time, she's one of the founders at Tilde Inc, the open-source-centric company behind Skylight. In her spare time, in addition to running EmberConf, Leah works on GoGaRuCo, RailsConf, and a number of User Groups. She's a retired member of the jQuery Core Team, and a member of the Ember Core Team.\n\nShe previously worked as a consultant for clients in the tech sector, ran events for the jQuery Foundation and was employed managing the Community Marketing and Events department at Engine Yard. She is originally from Brooklyn, NY and now lives in Portland, OR with her husband.",
     "session": "EmberConf MiniTalks"
   },
   {
@@ -139,7 +139,7 @@ export var speakerList = [
     "twitterURL": "http://twitter.com/@blangslet",
     "twitterHandler": "@blangslet",
     "name": "Bryan Langslet",
-    "bio": "Bryan is a Product Designer turned passionate Ember developer currently building design-centric apps at Envoy (@signwithenvoy).<br><br>Hobbies include: drinking the Web Component Kool-Aid and twisting his mind in strange and beautiful ways through international travel.",
+    "bio": "Bryan is a Product Designer turned passionate Ember developer currently building design-centric apps at Envoy (@signwithenvoy).\n\nHobbies include: drinking the Web Component Kool-Aid and twisting his mind in strange and beautiful ways through international travel.",
     "session": "Interaction Design with Ember 2.0 and Polymer"
   },
   {

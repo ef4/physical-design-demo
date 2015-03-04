@@ -27,5 +27,10 @@ export default function() {
     })
   );
 
-
+  this.transition(
+    this.inHelper('liquid-if'),
+    this.toModel(true),
+    this.use('toUp'),
+    this.reverse('toDown')
+  );
 }

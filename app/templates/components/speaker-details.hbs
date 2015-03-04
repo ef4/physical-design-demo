@@ -1,0 +1,21 @@
+<div class="speakers-image" id="{{model.id}}">
+  <img class="speaker-image-large" alt="{{model.name}}" src="{{model.imageURL}}" data-speaker-id={{model.id}} >
+  <h6><span class="fontawesome-twitter"></span><a href="{{model.twitterURL}}">{{model.twitterHandle}}</a></h6>
+</div>
+
+<div class="speakers-description description-header">
+  {{#liquid-if editing}}
+    {{input value=editorName}}
+    {{textarea rows=3 value=editorBio}}
+    <button {{action "save"}}>Save</button>
+    <button {{action "cancel"}}>Cancel</button>    
+  {{else}}
+    <div class="top" {{ action "edit" }}>
+      <h3>{{model.name}}</h3>
+      <p>{{with-br model.bio}}</p>
+    </div>
+  {{/liquid-if}}
+  <div class="bottom">
+    <h4><span>Session:</span> {{model.session}}</h4>
+  </div>
+</div>
