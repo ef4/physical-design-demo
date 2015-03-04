@@ -4,7 +4,7 @@
 </div>
 
 <div class="speakers-description description-header">
-  {{#liquid-if editing}}
+  {{#if editing}}
     {{input value=editorName}}
     {{textarea rows=3 value=editorBio}}
     <button {{action "save"}}>Save</button>
@@ -14,7 +14,7 @@
       <h3>{{model.name}}</h3>
       <p>{{with-br model.bio}}</p>
     </div>
-  {{/liquid-if}}
+  {{/if}}
   <div class="bottom">
     <h4><span>Session:</span> {{model.session}}</h4>
   </div>
