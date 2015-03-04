@@ -26,4 +26,11 @@ export default function() {
       use: ['flyTo', { duration, easing: [250, 15] } ]
     })
   );
+
+  this.transition(
+    this.inHelper('liquid-if'),
+    this.toModel(true),
+    this.use('toUp'),
+    this.reverse('toDown')
+  );
 }
