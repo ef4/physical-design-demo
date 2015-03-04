@@ -23,7 +23,7 @@ export default function() {
     this.childOf('.speaker-icons'),
     this.use('explode', {
       matchBy: 'data-speaker-id',
-      use: ['flyTo', { duration } ]
+      use: ['flyTo', { duration, easing: [250, 15] } ]
     })
   );
 }
