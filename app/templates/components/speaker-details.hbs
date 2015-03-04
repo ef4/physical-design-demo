@@ -1,7 +1,4 @@
-<div class="speakers-image" id="{{model.id}}">
-  <img class="speaker-image-large" alt="{{model.name}}" src="{{model.imageURL}}" data-speaker-id={{model.id}} >
-  <h6><span class="fontawesome-twitter"></span><a href="{{model.twitterURL}}">{{model.twitterHandle}}</a></h6>
-</div>
+{{speaker-image speaker=model}}
 
 <div class="speakers-description description-header">
   {{#if editing}}
