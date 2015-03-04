@@ -45,10 +45,6 @@
     }    
 }
 
-.app-outlet {
-    height: 800px;
-}
-
 .speaker-icons > .liquid-container {
     overflow: visible
 }
@@ -58,22 +54,30 @@
     float: right;
 }
 
+.sponsor-card {
+    background-color: white;
+    margin: 10px;
+    box-shadow: 0px 1px 1px 1px #777;
+    transition: box-shadow 150ms, transform 150ms;
+    cursor: pointer;
+    overflow: hidden;
+    vertical-align: top;
+    display: inline-block;
+    
+    &:hover {
+        box-shadow: 0px 3px 3px 3px #777;
+        transform: translateY(-3px);
+    }
+}
+
+
 .sponsor-logo {
     width: 120px;
     height: 120px;
-    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px;
-    box-shadow: 0px 2px 2px 2px #777;
-    transition: box-shadow 150ms, transform 150ms;
-    
     img { 
         width: 100px;
-    }
-    &:hover {
-        box-shadow: 0px 4px 4px 4px #777;
-        transform: translateY(-4px);
     }
 }

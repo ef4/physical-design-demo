@@ -171,3 +171,7 @@ export var sponsorList =  [
     "name": "Kanga Coders"
   }
 ];
+
+for (var i = 0 ; i < sponsorList.length; i++) {
+  sponsorList[i].id = String(i);
+}
