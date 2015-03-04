@@ -1,10 +1,12 @@
 <button class="shuffle" {{action "shuffle"}}>Shuffle</button>
 
 <div class="speaker-icons">
-    {{#each model as |speaker|}}
+  {{#liquid-with model as |currentModel|}}
+    {{#each currentModel as |speaker|}}
       {{#link-to "emberconf.speaker" speaker}}
         <img class="speaker-image-small" alt="{{speaker.name}}"
              src="{{speaker.imageURL}}" data-speaker-id={{speaker.id}} >
       {{/link-to}}
     {{/each}}
+  {{/liquid-with}}
 </div>
