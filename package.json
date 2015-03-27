@@ -31,6 +31,6 @@
     "ember-cli-uglify": "1.0.1",
     "ember-export-application-global": "^1.0.2",
     "liquid-fire": "git://github.com/ef4/liquid-fire#master",
-    "broccoli-sass": "git://github.com/ef4/broccoli-sass"
+    "broccoli-sass": "0.6.2"
   }
 }
